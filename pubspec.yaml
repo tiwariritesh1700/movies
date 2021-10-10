@@ -1,0 +1,35 @@
+name: movies
+description: A new Flutter application.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  flutter_lints: ^1.0.0
+  http: ^0.13.4
+  moor_flutter: ^4.0.0
+  cupertino_icons: ^1.0.2
+  cached_network_image: ^3.1.0
+  flutter_staggered_animations: ^1.0.0
+  connectivity_plus: ^2.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  moor_generator:
+  build_runner:
+
+# The following section is specific to Flutter.
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
